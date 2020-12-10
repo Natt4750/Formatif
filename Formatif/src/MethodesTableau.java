@@ -6,9 +6,7 @@
 * ou leurs indices
 */
 
-package com.edu.tfs;
-
-public class MethodesTableaux
+public class MethodesTableau
 {
 
 	public static void main(String[] args)
@@ -16,7 +14,7 @@ public class MethodesTableaux
 		int [] myTab= {14,12,24,12,2,9,8,3,1000,4,10};
 		
 		
-		System.out.println(moyenneNotes(myTab));
+		System.out.println((myTab));
      
 	}
 	
@@ -182,5 +180,7 @@ static double moyenneNotes(int [] a)
 	return somme/a.length;
 	
 }
+
+
 
 }
